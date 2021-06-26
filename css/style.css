@@ -1,0 +1,168 @@
+ /*fixed]d*/
+ .body1 {
+ 	background: #F6F8F9;
+ 	padding-left: 400px;
+ 	z-index: 5;
+ }
+.logo {
+	display: inline-block;
+	margin-right: 50px;
+}
+.navigation {
+	display: inline-block;
+	vertical-align: middle;
+
+}
+.nav-li {
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 25px;
+
+}
+.div1 {
+	vertical-align: middle;
+	background: #F6F8F9;
+	padding: 30px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 3;
+}
+/*body{
+	height: 1800px;
+}*/
+.section1 {
+	margin-top: 100px;
+	vertical-align: middle;
+}
+/*relativi da ebsoluti*/
+.wrapper-box {
+	width: 1160px;
+	height: 410px;
+	/*background-color: #F6F8F9;*/
+	position: relative;
+}
+/*.child-box {
+	width: 361px;
+	height: 350px;
+	background-color: #FFFFFF
+	position: absolute;
+	right: 0;
+	left: 0;
+}*/
+.child-box1 {
+	width: 360px;
+	height: 350px;
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 40px;
+	left: 0;
+}
+.child-box2 {
+	width: 360px;
+	height: 350px;
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 40px;
+	left: 400px;
+}
+.child-box3 {
+	width: 360px;
+	height: 350px;
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 40px;
+	left: 800px;
+}
+.p {
+	position: absolute;
+	left: 40px;	
+	bottom: 100px;
+	color: #A6ADB4;
+}
+.div-child {
+	position: absolute;
+	left: 40px;
+	bottom: 40px;
+	/*color: #A6ADB4;*/
+}
+.p1 {
+	position: absolute;
+	/*width: 76px;
+	height: 40px;*/
+	left: 76px;
+	bottom: 40px;
+	color: #A6ADB4;
+}
+.section2 {
+	position: relative;
+
+}
+.wrapper-box2 {
+	position: absolute;
+}
+.wrapper-box3 {
+	position: absolute;
+	left: 0px;
+	top: 470px;
+
+}
+.text1 {
+	padding-left: 10px;
+}
+.text2 {
+	padding-left: 10px;
+	margin: 0 auto;
+}
+.section3 {
+	position: relative;
+	display: flex;
+	/*width: 360px;
+  height: 210px;*/
+	padding-left: 800px;
+
+}
+.wrapper-box4 {
+	position: absolute;
+	/*left: 0px;
+	top: 470px;*/
+	/*padding-left: 800px;*/
+	padding-top: 0px;
+}
+.wrapper-box5 {
+	position: absolute;
+	/*left: 0px;
+	top: 470px;*/
+	/*padding-right: 800px;
+	height: 915px;*/
+	padding-top: 320px;
+}
+.wrapper-box6 {
+	position: absolute;
+	/*left: 0px;
+	top: 470px;*/
+	/*position: absolute;
+	padding-left: 800px;*/
+	padding-top: 600px;
+}
+.p1::after {
+	content: '2min ago';
+
+}
+.footer-box {
+	position: fixed;
+	position: absolute;
+	height: 0;
+	width: 57.5%;
+	background-color: #707070;
+	z-index: 4;
+}
+.footer-container {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	background-color: white;
+	padding: 0 50px;
+}
