@@ -1,7 +1,7 @@
  /*fixed]d*/
  .body1 {
  	background: #F6F8F9;
- 	padding-left: 400px;
+ 	padding-left: 250px;
  	z-index: 5;
  }
 .logo {
@@ -153,16 +153,41 @@
 .footer-box {
 	position: fixed;
 	position: absolute;
-	height: 0;
-	width: 57.5%;
-	background-color: #707070;
-	z-index: 4;
+	left: 0;
+	top: 1490px;
+	background-color: #A6ADB4;
+	width: 100%;
+	
 }
 .footer-container {
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
-	background-color: white;
 	padding: 0 50px;
+}
+.logo2 {
+	vertical-align: middle;
+	padding: 58px;
+}
+.nav-li2 {
+	vertical-align: bottom;
+	display: inline-block;
+	margin-right: 25px;
+}
+.nav-li3 {
+	padding-left: middle;
+	vertical-align: bottom;
+	display: inline-block;
+	margin-right: 100px;
+}
+.nav-li4 {
+	vertical-align: bottom;
+	display: inline-block;
+	margin-right: 75px;
+}
+.social-media {
+	display: flex;
+	width: 100%;
+	padding-left: 1300px;
 }
